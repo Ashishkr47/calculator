@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mx-auto {
+    margin: auto;
+  }
+  
+  .container {
+    width: 500px; /* Increase the width of the container */
+    background-color: #282c34;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #61dafb;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    flex: 1; /* Let the input field grow to fill the available space */
+    padding: 8px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    background-color: lightblue; /* Change the display color to light blue */
+    color: #282c34;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .button {
+    flex: 1; /* Let the buttons grow to fill the available space */
+    height: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444d56;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Additional styles for specific buttons */
+  /* ... (previous button styles remain the same) ... */
+  
+  
+  .button:hover {
+    background-color: #61dafb;
+    color: #282c34;
+  }
+  
+  .button:active {
+    background-color: #282c34;
+  }
+  
+  /* Additional styles for specific buttons */
+  .row:nth-child(2) .button:nth-child(3) {
+    background-color: #ff851b; /* Percentage button */
+  }
+  
+  .row:nth-child(3) .button:nth-child(4) {
+    background-color: #f012be; /* Divide button */
+  }
+  
+  .row:nth-child(4) .button:nth-child(4) {
+    background-color: #f012be; /* Minus button */
+  }
+  
+  .row:nth-child(5) .button:nth-child(4) {
+    background-color: #f012be; /* Plus button */
+  }
+  
+  .row:nth-child(6) .button:nth-child(4) {
+    background-color: #f012be; /* Equals button */
+  }
+  
+  .row:nth-child(7) .button:nth-child(4) {
+    background-color: #f012be; /* Sin button */
+  }
+  
+  .row:nth-child(7) .button:nth-child(3) {
+    background-color: #ff851b; /* Dot button */
+  }
+  
+  .row:nth-child(7) .button:nth-child(2) {
+    background-color: #f012be; /* Zero button */
+  }
+  
+  .row:nth-child(7) .button:nth-child(1) {
+    background-color: #f012be; /* Plus/Minus button */
+  }
+  
+  .row:nth-child(8) .button:nth-child(1) {
+    background-color: #f012be; /* Cos button */
+  }
+  
+  .row:nth-child(8) .button:nth-child(2) {
+    background-color: #f012be; /* Tan button */
+  }
+  
+  .row:nth-child(8) .button:nth-child(3) {
+    background-color: #ff851b; /* Pi button */
+  }
+  
+  .row:nth-child(9) .button {
+    background-color: #282c34;
+    color: #61dafb; /* Other buttons in the last row */
+  }
+  
